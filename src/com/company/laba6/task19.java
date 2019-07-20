@@ -9,8 +9,8 @@ public class task19 {
         int j = 0;
         for (int i = 0; i <= a; i++) {
 
-            System.out.println(i + " - " + j);
-            j++;
+                System.out.println(i + " - " + j);
+                j++;
                     if (j==4) {
                         j=0;
                     }
