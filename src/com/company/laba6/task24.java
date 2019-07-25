@@ -15,10 +15,10 @@ public class task24 {
                     break;
                 }
             }
-            if (a == false) {
-                System.out.print("Число простое");
-            } else {
+            if (a) {
                 System.out.print("Число не простое");
+            } else {
+                System.out.print("Число простое");
             }
         } else {
             System.out.print("Число должно быть больше 0");

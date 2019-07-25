@@ -9,12 +9,13 @@ public class task23 {
         int y = x.nextInt();
         if(y>0) {
 
-            for (int i = 1; i <= y; i++) {
+            for (int i = 1; i <= y/2; i++) {
                 if (y % i == 0) {
                     System.out.print(i + " ");
                 }
 
             }
+            System.out.print(y);
         }
         else {
             System.out.print("Значение должно быть больше 0");
