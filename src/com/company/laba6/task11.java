@@ -1,5 +1,6 @@
 package com.company.laba6;
 
+
 public class task11 {
     public static void main(String[] args) {
         Pen p = Pen.prepare();
@@ -27,32 +28,18 @@ public class task11 {
         for (int i = 0; i <= 8; i++) {
             p.down();
         }
-        p.left();
-        p.up();
-        p.up();
-        p.up();
-        p.left();
-        p.down();
-        p.down();
-        p.down();
+        for (int i=1; i<=3; i++) {
 
-        p.left();
-        p.up();
-        p.up();
-        p.up();
-        p.left();
-        p.down();
-        p.down();
-        p.down();
+            p.left();
+            p.up();
+            p.up();
+            p.up();
+            p.left();
+            p.down();
+            p.down();
+            p.down();
 
-        p.left();
-        p.up();
-        p.up();
-        p.up();
-        p.left();
-        p.down();
-        p.down();
-        p.down();
+        }
 
         p.left();
         p.up();
