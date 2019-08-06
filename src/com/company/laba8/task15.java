@@ -2,7 +2,7 @@ package com.company.laba8;
 
 import java.util.Scanner;
 
-public class task12s {
+public class task15 {
     public static void main(String[] args) {
 
         Scanner x = new Scanner(System.in);
