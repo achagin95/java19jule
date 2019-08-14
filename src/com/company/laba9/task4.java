@@ -8,7 +8,7 @@ public class task4 {
 
         String t = "";
         t = x.nextLine();
-        String[] sarr = t.split(";");
+        String[] sarr = t.split(",");
 
         int length = sarr.length;
         int[] arr;
@@ -18,7 +18,7 @@ public class task4 {
             arr[i] = Integer.parseInt(sarr[i]);
         }
 
-        for (int i=0; i< length-1; i++) {
+        for (int i=0; i< length-1; i=i+2) {
             if (arr[i]>=19 && arr[i+1]<=19) {
                 System.out.print("От "+arr[i+1]+" до "+arr[i]+"\n");
             }

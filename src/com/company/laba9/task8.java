@@ -40,7 +40,7 @@ public class task8 {
         else if (t1.isEmpty()) {
             System.out.print("Отсутствуют данные о фрагментах");
         }else {
-            System.out.print("Отсутствуют данные о индексах");
+            System.out.print("Отсутствуют данные о колличествах");
         }
     }
 }
