@@ -8,7 +8,7 @@ public class task14 {
 
         String t = "";
         t = x.nextLine();
-        String[] arr = t.split(" ");
+        String[] arr = t.split(",");
 
         int length = arr.length;
 

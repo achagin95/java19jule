@@ -16,23 +16,24 @@ public class task11 {
             arr[i]=Integer.parseInt(sarr[i]);
 
         }
-        int sk=0;
+        double sk=0;
         for (int i=0; i<length; i++){
 
-        sk=sk+arr[i];
+        sk=sk+(double)arr[i];
         }
         sk=sk/length;
+        System.out.print(sk+ "\n");
+        double skk=0;
 
         for (int i=0; i<length; i++) {
-            arr[i]=arr[i]-sk;
-        }
-        int skk=0;
-        for (int i=0; i<length; i++) {
-            skk=skk+(arr[i]*arr[i]);
-
+            double a=arr[i]-sk;
+            skk=skk+(a*a);
         }
 
-        double rez=Math.sqrt(skk/length);
+
+
+
+        double rez=Math.sqrt(skk/(length-1));
         System.out.printf("%.4f",rez);
     }
 }

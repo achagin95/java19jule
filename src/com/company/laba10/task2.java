@@ -4,17 +4,17 @@ public class task2 {
     public static void main(String[] args) {
         Scanner x = new Scanner(System.in);
 
-        int a=x.nextInt();
-        int b=x.nextInt();
+        long a=x.nextLong();
+        long b=x.nextLong();
 
-        int rez=1;
+        long rez=1;
 
         if (a>=b) {
-            for (int i=b; i<=a; i++) {
+            for (long i=b; i<=a; i++) {
                 rez=rez*i;
             }
         } else {
-            for (int i=a; i<=b; i++) {
+            for (long i=a; i<=b; i++) {
                 rez=rez*i;
             }
         }
