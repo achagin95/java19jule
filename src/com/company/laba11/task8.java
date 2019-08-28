@@ -19,7 +19,7 @@ public class task8 {
 
             System.out.print(asd.substring(0, ca) + asd.substring(n, length));
 
-        } else if (ca + cb > length) {
+        } else if (ca + cb >= length) {
             System.out.print("Сумма значений CA и CB должна быть меньше длины строки");
         } else if (ca < 0 || ca > length) {
             System.out.print("Значение CA должно быть в интервале [0, длина строки)");

@@ -25,6 +25,9 @@ public class task15 {
                         data = data.replaceFirst("\"", "[");
                     }
                 }
+                if (a.equals("[")||a.equals("]")) {
+
+                }
 
             }
             System.out.print(data);

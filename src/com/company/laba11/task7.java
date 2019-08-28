@@ -14,6 +14,8 @@ public class task7 {
             System.out.println("Код товара: "+ asd.substring(7,11));
             System.out.println("Контрольное число: "+ asd.substring(12));
 
+        } else {
+            System.out.print("Некорректная длина штрих-кода");
         }
 
     }

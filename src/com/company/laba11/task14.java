@@ -11,25 +11,31 @@ public class task14 {
         String data = x.nextLine();
 
         int length = asd.length();
+        int length2 = data.length();
 
-        int num=0;
-        int index;
+        if (length2 == 1) {
 
-        for (int i=0; i<length; i++) {
+            int num = 0;
+            int index;
 
-            index = asd.indexOf(data, i);
-            if (index<0) {
-                break;
+            for (int i = 0; i < length; i++) {
+
+                index = asd.indexOf(data, i);
+                if (index < 0) {
+                    break;
+                }
+                i = index;
+                num++;
+                System.out.print(index + " ");
+                if (num % 20 == 0) {
+                    System.out.print("\n");
+                }
+
+
             }
-            i=index;
-            num++;
-            System.out.print(index+" ");
-            if (num%20==0) {
-                System.out.print("\n");
-            }
-
-
+            System.out.print("\nИтого " + num);
+        } else {
+            System.out.print("Нужно ввести ровно один символ");
         }
-        System.out.print("\nИтого "+num);
     }
 }
